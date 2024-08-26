@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.heading {
+  font-size: 2rem;
+}
+
+input[type="text"] {
+  @apply border border-gray-600 p-3 shadow-md bg-white;
+}
+
+input[type="text"]:focus {
+  @apply ring-2 ring-blue-500;
+}
